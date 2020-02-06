@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Folmulario102A.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Folmulario102A.Designer.cs">
+      <DependentUpon>Folmulario102A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario103.Designer.cs">
+      <DependentUpon>Formulario103.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario104.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario104.Designer.cs">
+      <DependentUpon>Formulario104.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
