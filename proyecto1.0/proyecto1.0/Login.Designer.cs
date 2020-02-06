@@ -58,14 +58,14 @@
             // 
             this.txtUsername.Location = new System.Drawing.Point(227, 80);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(100, 20);
+            this.txtUsername.Size = new System.Drawing.Size(133, 20);
             this.txtUsername.TabIndex = 2;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(227, 107);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(100, 20);
+            this.txtPassword.Size = new System.Drawing.Size(133, 20);
             this.txtPassword.TabIndex = 3;
             // 
             // btnLogin
