@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblUser = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.Label();
-            this.txtUser = new System.Windows.Forms.TextBox();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
+            this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblUser
+            // lbl1
             // 
-            this.lblUser.AutoSize = true;
-            this.lblUser.Location = new System.Drawing.Point(155, 80);
-            this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(65, 13);
-            this.lblUser.TabIndex = 0;
-            this.lblUser.Text = "User           :";
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(155, 80);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(64, 13);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "Username  :";
             // 
-            // lblPassword
+            // lbl2
             // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(155, 105);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(65, 13);
-            this.lblPassword.TabIndex = 1;
-            this.lblPassword.Text = "Password   :";
+            this.lbl2.AutoSize = true;
+            this.lbl2.Location = new System.Drawing.Point(155, 105);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(65, 13);
+            this.lbl2.TabIndex = 1;
+            this.lbl2.Text = "Password   :";
             // 
-            // txtUser
+            // txtUsername
             // 
-            this.txtUser.Location = new System.Drawing.Point(227, 80);
-            this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(100, 20);
-            this.txtUser.TabIndex = 2;
+            this.txtUsername.Location = new System.Drawing.Point(227, 80);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(100, 20);
+            this.txtUsername.TabIndex = 2;
             // 
             // txtPassword
             // 
@@ -76,6 +76,7 @@
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "LOGIN";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
@@ -96,9 +97,9 @@
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtUser);
-            this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.lblUser);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.lbl1);
             this.Name = "Login";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -108,9 +109,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblUser;
-        private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnExit;

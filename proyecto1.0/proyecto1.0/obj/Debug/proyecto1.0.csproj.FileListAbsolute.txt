@@ -7,3 +7,4 @@ C:\Users\Daniela\Desktop\proyecto_bdd_10.0\proyecto_BDD_1.0\proyecto1.0\proyecto
 C:\Users\Daniela\Desktop\proyecto_bdd_10.0\proyecto_BDD_1.0\proyecto1.0\proyecto1.0\obj\Debug\proyecto1.0.csproj.GenerateResource.cache
 C:\Users\Daniela\Desktop\proyecto_bdd_10.0\proyecto_BDD_1.0\proyecto1.0\proyecto1.0\obj\Debug\proyecto1.0.exe
 C:\Users\Daniela\Desktop\proyecto_bdd_10.0\proyecto_BDD_1.0\proyecto1.0\proyecto1.0\obj\Debug\proyecto1.0.pdb
+C:\Users\Daniela\Desktop\proyecto_bdd_10.0\proyecto_BDD_1.0\proyecto1.0\proyecto1.0\obj\Debug\proyecto1._0.Menu.resources

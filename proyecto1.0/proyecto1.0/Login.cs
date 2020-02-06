@@ -21,5 +21,11 @@ namespace proyecto1._0
         {
             Application.Exit();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Menu(txtUsername.Text).Show();
+        }
     }
 }
